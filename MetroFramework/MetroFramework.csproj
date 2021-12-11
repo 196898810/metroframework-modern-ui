@@ -170,6 +170,23 @@
     <Compile Include="Controls\MetroUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Design\Components\MetroStyleManagerDesigner.cs" />
+    <Compile Include="Design\Controls\MetroButtonDesigner.cs" />
+    <Compile Include="Design\Controls\MetroCheckBoxDesigner.cs" />
+    <Compile Include="Design\Controls\MetroDropDownButtonDesigner.cs" />
+    <Compile Include="Design\Controls\MetroLabelDesigner.cs" />
+    <Compile Include="Design\Controls\MetroLinkDesigner.cs" />
+    <Compile Include="Design\Controls\MetroPanelDesigner.cs" />
+    <Compile Include="Design\Controls\MetroProgressBarDesigner.cs" />
+    <Compile Include="Design\Controls\MetroProgressSpinnerDesigner.cs" />
+    <Compile Include="Design\Controls\MetroRadioButtonDesigner.cs" />
+    <Compile Include="Design\Controls\MetroScrollBarDesigner.cs" />
+    <Compile Include="Design\Controls\MetroTabControlDesigner.cs" />
+    <Compile Include="Design\Controls\MetroTabPageCollectionEditor.cs" />
+    <Compile Include="Design\Controls\MetroTabPageDesigner.cs" />
+    <Compile Include="Design\Controls\MetroTextBoxDesigner.cs" />
+    <Compile Include="Design\Controls\MetroTileDesigner.cs" />
+    <Compile Include="Design\Controls\MetroToggleDesigner.cs" />
     <Compile Include="Drawing\Html\CssAnonymousBlockBox.cs" />
     <Compile Include="Drawing\Html\CssAnonymousBox.cs" />
     <Compile Include="Drawing\Html\CssBlock.cs" />
@@ -203,6 +220,7 @@
     <Compile Include="Drawing\Html\Parser.cs" />
     <Compile Include="Drawing\MetroBackBuffer.cs" />
     <Compile Include="Drawing\MetroPaint.cs" />
+    <Compile Include="Fonts\FontResolver.cs" />
     <Compile Include="Forms\MetroForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,6 +270,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <EmbeddedResource Include="Resources\Open_Sans.ttf" />
+    <EmbeddedResource Include="Resources\Open_Sans_Bold.ttf" />
+    <EmbeddedResource Include="Resources\Open_Sans_Light.ttf" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -284,6 +305,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Localization\en\MetroToggle.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open Sans License.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
